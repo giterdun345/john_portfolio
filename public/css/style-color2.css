@@ -1,0 +1,134 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) Miradontsoa
+Website Template by miradontsoa
+http://highhay.com
+http://miradontsoa.com
+
+IMPORTANT : This is an overwritting CSS rules of the default layout of the template (main.css).
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+/** CSS Reference
+    1. Init Tag style
+    2. Page cover on scroll / .page-cover
+**/
+/*------------------------------------------------------------------
+[colors]
+    blue : #037FD5
+    black : #111111
+**/
+/* 1. Init Tag style */
+a {
+  color: #037FD5; }
+  a:hover {
+    color: rgba(3, 127, 213, 0.8); }
+
+/* 2. Page cover on scroll / .page-cover */
+.page-cover:after {
+  content: "";
+  background: linear-gradient(to left, #337dd1, #00152e);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.6s; }
+
+.page-cover.scrolled:after {
+  opacity: 0.9; }
+
+/* page header */
+.menu-icon {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+  @media (min-width: 768px) {
+    .menu-icon {
+      background: rgba(255, 255, 255, 0.15); } }
+  .menu-icon:hover {
+    border-color: #ffffff; }
+
+.text-dark .menu-icon {
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.15); }
+  .text-dark .menu-icon:hover {
+    border-color: #111111; }
+
+.page-header-alpha .navbar-sidebar {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+
+.page-header-alpha .navbar-sidebar .nav-item a {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent; }
+  @media (min-width: 768px) {
+    .page-header-alpha .navbar-sidebar .nav-item a {
+      background: rgba(255, 255, 255, 0.15); } }
+  .page-header-alpha .navbar-sidebar .nav-item a:hover {
+    border-color: #ffffff; }
+
+@media (min-width: 768px) {
+  .page-header-alpha .navbar-mainmenu:before {
+    border-color: transparent; } }
+
+.text-dark.page-header-alpha .navbar-sidebar .nav-item a {
+  background: rgba(0, 0, 0, 0.15);
+  border-color: transparent; }
+
+/* buttons */
+.btn-framed {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent; }
+  @media (min-width: 768px) {
+    .btn-framed {
+      background: rgba(255, 255, 255, 0.15); } }
+  .btn-framed:hover {
+    border-color: #ffffff; }
+
+.btn-social {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent; }
+  @media (min-width: 768px) {
+    .btn-social {
+      background: rgba(255, 255, 255, 0.15); } }
+  .btn-social:hover {
+    border-color: #ffffff; }
+
+.btn-outline {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+  @media (min-width: 768px) {
+    .btn-outline {
+      background: rgba(255, 255, 255, 0.15); } }
+  .btn-outline:hover {
+    border-color: #ffffff; }
+
+.btn-arrow > .icon {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+  @media (min-width: 768px) {
+    .btn-arrow > .icon {
+      background: rgba(255, 255, 255, 0.15); } }
+  .btn-arrow > .icon:hover {
+    border-color: #ffffff; }
+
+.section-text-dark .btn-arrow .icon {
+  background: rgba(0, 0, 0, 0.15);
+  border-color: transparent; }
+  .section-text-dark .btn-arrow .icon:hover {
+    border-color: #111111; }
+
+.section-text-dark .btn-arrow:hover {
+  color: #111111; }
+
+/* forms */
+.form-control-outline.form-control-white {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: transparent; }
+  .form-control-outline.form-control-white:active, .form-control-outline.form-control-white:focus {
+    border-color: #ffffff; }
