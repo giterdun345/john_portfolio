@@ -39,3 +39,7 @@ a {
 
 .page-cover.scrolled:after {
   background: #111111; }
+
+  .navbar-mainmenu{
+    z-index: 99;
+  }
