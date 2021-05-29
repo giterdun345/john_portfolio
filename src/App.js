@@ -1,24 +1,18 @@
 
 import Header from'./components/nav/Header'
 import CoverBackground from './components/cover/CoverBackground'
-
+import CoverFrame from './components/cover/CoverFrame'
 function App() {
   return (
     
     <body id="menu" className="body-page">
       <Header />
       <CoverBackground />
-
-  {/* <!-- cover frame --> */}
-  <div className="cover-frame">
-    <div className="sides"></div>
-  </div>
-
-
+      <CoverFrame />
   {/* <!-- BEGIN OF page main content --> */}
-  <main className="page-main page-fullpage main-anim scroll-fullpage" id="mainpage">
+      <main className="page-main page-fullpage main-anim scroll-fullpage" id="mainpage">
 
-    {/* <!-- Begin of home section --> */}
+        {/* <!-- Begin of home section --> */}
     <div className="section section-home fullscreen-md fp-auto-height-responsive main-home border-sm section-centered"
     data-section="home">
       {/* <!-- Begin of section wrapper --> */}
