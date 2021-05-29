@@ -14,25 +14,25 @@ const SkillsSide = () => {
               </div>
             </li>
             <li className="nav-item">
-              <a className="btn-framed" href="#services/1">
+              <div className="btn-framed">
                 <span className="icon">FE</span>
                 <span className="text">
                   <span className="b-title">Frontend</span>
                   <span className="b-desc">React, Sass, HTML, CSS</span>
                 </span>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="btn-framed" href="#services/2">
+              <div className="btn-framed">
                 <span className="icon">BE</span>
                 <span className="text">
                   <span className="b-title">Backend</span>
                   <span className="b-desc">Node, Django, PostgreSQL, graphQL</span>
                 </span>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="btn-framed" href="#contact">
+              <div className="btn-framed">
                 <span className="icon">
                   <i className="fa fa-check"></i>
                 </span>
@@ -40,7 +40,7 @@ const SkillsSide = () => {
                   <span className="b-title">Extras</span>
                   <span className="b-desc">Data Science, Data Visualizations, Gatsby, Netlify</span>
                 </span>
-              </a>
+              </div>
             </li>
           </ul>
         </div>
