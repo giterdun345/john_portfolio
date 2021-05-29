@@ -2,6 +2,7 @@
 import Header from'./components/nav/Header'
 import CoverBackground from './components/cover/CoverBackground'
 import CoverFrame from './components/cover/CoverFrame'
+import HomeSection from './components/home_section/HomeSection'
 function App() {
   return (
     
@@ -13,106 +14,11 @@ function App() {
       <main className="page-main page-fullpage main-anim scroll-fullpage" id="mainpage">
 
         {/* <!-- Begin of home section --> */}
-    <div className="section section-home fullscreen-md fp-auto-height-responsive main-home border-sm section-centered"
-    data-section="home">
-      {/* <!-- Begin of section wrapper --> */}
-      <div className="section-wrapper fullwidth with-margin v-center">
-        {/* <!-- content --> */}
-        <div className="section-content anim">
-          <div className="row">
-            <div className="col-12 col-lg-8 text-left">
-              {/* <!-- title --> */}
-              <div className="title-desc">
-                <h1 className="display-4 display-title display-decor home-title text-slide-in anim-1-off">
-                  John Ketterer</h1>
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-6 text-left">
-              {/* <!-- description --> */}
-              <div className="title-desc">
-                <p className="anim-4">We are the best home designer in town.</p>
-              </div>
-
-              {/* <!-- Action button --> */}
-              <div className="btns-action anim-5">
-                <a href="#contact" className="btn btn-social">
-                  <i className="icon fa fa-phone"></i>
-                </a>
-                <a className="btn btn-arrow btn-primary" href="#about">
-                  <span className="icon">
-                    <span className="arrow-right"></span>
-                  </span>
-                  <span className="text">About</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <div className="section-aside small-relative  aside-middle">
-          <ul className="nav nav-btns-list">
-            <li className="nav-item">
-              <a className="btn-framed" href="#services/0">
-                <span className="icon">AR</span>
-                <span className="text">
-                  <span className="b-title">Architecture</span>
-                  <span className="b-desc">Rural and City Architecture</span>
-                </span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="btn-framed" href="#services/1">
-                <span className="icon">HD</span>
-                <span className="text">
-                  <span className="b-title">Home Design</span>
-                  <span className="b-desc">Interior Design, Home Deco, Potager</span>
-                </span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="btn-framed" href="#services/2">
-                <span className="icon">PB</span>
-                <span className="text">
-                  <span className="b-title">Plumbing</span>
-                  <span className="b-desc">Electricity, Plumbing, and so on.</span>
-                </span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="btn-framed" href="#contact">
-                <span className="icon">
-                  <i className="fa fa-phone"></i>
-                </span>
-                <span className="text">
-                  <span className="b-title">Have a project?</span>
-                  <span className="b-desc">Phone us: +0 12 345 678</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div> */}
+        <HomeSection />
+        
 
 
-        {/* <!-- Arrows scroll down/up --> */}
-        <footer className="section-footer scrolldown">
-        <a className="up"> 
-        <span className="btn btn-arrow">
-					<span className="icon">
-						<span className="arrow-up"></span>
-					</span>
-				</span>
-			</a>
-          <a className="down">
-            <span className="btn btn-arrow">
-              <span className="icon">
-                <span className="arrow-down"></span>
-              </span>
-            </span>
-          </a>
-        </footer>
-      </div>
-      {/* <!-- End of section wrapper --> */}
-    </div>
+    
     {/* <!-- End of home section --> */}
 
     {/* <!-- Begin of description section --> */}
