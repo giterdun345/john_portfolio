@@ -10,7 +10,7 @@ function App() {
       <Header />
       <CoverBackground />
       <CoverFrame />
-  {/* <!-- BEGIN OF page main content --> */}
+      {/* <!-- BEGIN OF page main content --> */}
       <main className="page-main page-fullpage main-anim scroll-fullpage" id="mainpage">
 
         {/* <!-- Begin of home section --> */}
