@@ -6,10 +6,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="mixitupGIF.gif" alt="Logo"> 
   <h3 align="center">Portfolio Page</h3>
   <p align="center">
-  This was a template purchased from MiVFX / HighHay; big shout out to them for such a great piece of work. 
+  This was a template purchased from MiVFX / HighHay; big shout out to them for such a great piece of work. With a template comes a whole load of unused css and js. The goal is to take this template and turn it into a react app with the js files integrated to the respective components. PurgeCSS and a whole lot tree shaking is involved.
   <br />
   <a href="https://github.com/giterdun345/mixitup/issues">Report Bug</a>
   
