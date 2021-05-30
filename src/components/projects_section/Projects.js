@@ -15,7 +15,7 @@ const Projects = () => {
   without requiring the extensive resources. I created an SEO friendly page, optimized for speed 
   and added a job application form in addition to a contact form, which is accessed as a database. The website is ready for articles/blog
   portion, making it a full JAMstack. It saved almost 80% on cost and the owner was
-  pleased with the outcome.`
+  pleased with the outcome. Used: React, Sass, Gatsby `
 
   const mixitup = `
   I am API savvy so I wanted to make an app to demonstrate this and to have something for my friends
@@ -24,7 +24,7 @@ const Projects = () => {
   This page offers search options, browsing by letter, and if you have an ingredient at the house, 
   you can find the ingredient in the list to see all the drinks that are possible. I hope if you go
   to check it out, you find a drink to make this weekend that is different and satisfying. I like 
-  to mix things up a bit and explore what the world has to offer, I encourage it.`
+  to mix things up a bit and explore what the world has to offer, I encourage it. Used: React, Sass, APIs`
 
   return ( 
     <div className="section section-twoside projects-slider " data-section="projects">
@@ -36,13 +36,14 @@ const Projects = () => {
         description = {comlogs} 
       />
       <Project 
-
+        // image="./img/sspm.png"
         demo="https://southsidepaint-prototype.netlify.app/"
         source="https://github.com/giterdun345/southsideG"
         title = "Southside Paint"
         description = {sspm} 
       />
       <Project 
+      // image="./img/mixitupGIF.gif"
         demo="https://mixitupketterer.netlify.app/"
         source="https://github.com/giterdun345/cocktailAPI-mixitup"
         title = "MixItUp"

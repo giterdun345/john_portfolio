@@ -1,11 +1,11 @@
 import Buttons from './Buttons'
-const Project = ({image, title, description, demo, source}) => {
+const Project = ({title, description, demo, source}) => {
   return ( 
     <div className="slide">
         <div className="slide-wrapper">
           <div className="item-wrapper anim">
             <div className="illustr zoomout-1">
-              <div className="img bg-img" data-image-src={image}></div>
+              {/* <div className='img bg-img project-image' data-image-src={image}></div> */}
             </div>
             <div className="legend">
               <div className="title anim-1">
