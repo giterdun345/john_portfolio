@@ -13,9 +13,9 @@ const Projects = () => {
   `The original web page was not optimal, it needed a professional look.
   Furthermore the owner was paying $150/month for all the bells and whistles of dedicated hosting 
   without requiring the extensive resources. I created an SEO friendly page, optimized for speed 
-  and added a job application form in addition to a contact form, which is accessed as a database. The website is ready for articles/blog
-  portion, making it a full JAMstack. It saved almost 80% on cost and the owner was
-  pleased with the outcome. Used: React, Sass, Gatsby `
+  and added a job application form in addition to a contact form, which is accessed as a database. 
+  The website is ready for an articles/blog portion, making it a full JAMstack. It saved almost 
+  80% on cost and the owner was pleased with the outcome. Used: React, Sass, Gatsby `
 
   const mixitup = `
   I am API savvy so I wanted to make an app to demonstrate this and to have something for my friends
