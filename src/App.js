@@ -11,7 +11,7 @@ import Contact from './components/contact_section/Contact'
 
 const App = ()=>{
   return (
-    <body id="menu" className="body-page">
+    <div id="menu" className=" body body-page">
       <PageLoader />
       <Header />
       <CoverBackground />
@@ -23,7 +23,7 @@ const App = ()=>{
         <Buffer />    
         <Contact />
       </main>
-    </body>
+    </div>
   );
 }
 

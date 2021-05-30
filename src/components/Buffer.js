@@ -8,7 +8,6 @@ const Buffer = () => {
       <div className="section-wrapper fullwidth fullheight center-lg-v with-margin padding-wrapper-topbottom">
         <div className="section-content fullwidth anim">
           <div className="row">
-            {/* <div className="col-12 col-lg-6 text-left center-v"> */}
               <div className="wrapper">
                 <div className="title-desc">
                   <h2 className="display-4 display-title anim-1" style={{width: "100%"}}>  
@@ -33,7 +32,6 @@ const Buffer = () => {
                   </a>
                 </div>
               </div>
-            {/* </div> */}
           </div> 
         </div> 
         <Footer />

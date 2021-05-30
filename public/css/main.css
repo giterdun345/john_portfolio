@@ -82,7 +82,7 @@ video {
   color: #000;
   padding: 0.2em 0; }
 
-body {
+.body {
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   font-size: 1rem;
   background-color: #ffffff;
