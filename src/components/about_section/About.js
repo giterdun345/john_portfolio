@@ -30,7 +30,7 @@ const About = () => {
                   <a href="https://www.linkedin.com/in/jm-ketterer/" className="btn btn-social">
                     <i className="icon fa fa-linkedin"></i>
                   </a>
-                  <a className="btn btn-outline btn-primary" href="#services">
+                  <a className="btn btn-outline btn-primary" href="#projects">
                     <span className="text">Projects</span>
                     <span className="icon">
                       <span className="arrow-right"></span>

@@ -7,8 +7,8 @@ import HomeSection from './components/home_section/HomeSection'
 import About from './components/about_section/About'
 import Projects from './components/projects_section/Projects'
 import Buffer from './components/Buffer'
-// import Contact from './components/contact_section/Contact'
 import Contact from './components/contact_section/Contact'
+
 const App = ()=>{
   return (
     <body id="menu" className="body-page">
