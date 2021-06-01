@@ -15,12 +15,13 @@ const Buffer = () => {
                     <br/> Let's do this.
                   </h2>
                     <p className="anim-2 desc-decor">
-                      I'm looking for a good opportunity to prove my talent and skills.
+                      I'm looking for a good opportunity to be a creative player on a growing team.
                       As a member of your team, you will get a loyal worker that you can rely on.
-                      I have a breadth of skills to provide from years of teaching, owning a business
-                      and being a life long learner. Give me a task and consider it done. Let's set up a time to talk. 
-                      <br />
-                      You won't be disappointed.
+                      I am a life long learner. From years of teaching, owning a business
+                      when something needs to get done, I will get it done. 
+                      <br/>
+                      Let's set up a time to talk. 
+                      
                     </p>
                 </div>
                 <div className="btns-action anim-3">
