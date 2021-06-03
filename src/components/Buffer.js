@@ -17,7 +17,7 @@ const Buffer = () => {
                     <p className="anim-2 desc-decor">
                       I'm looking for a good opportunity to be a creative player on a growing team.
                       As a member of your team, you will get a loyal worker that you can rely on.
-                      I am a life long learner. From years of teaching, owning a business
+                      I am a life long learner. From years of teaching and owning a business,
                       when something needs to get done, I will get it done. 
                       <br/>
                       Let's set up a time to talk. 
