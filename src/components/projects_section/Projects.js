@@ -5,8 +5,8 @@ const Projects = () => {
   const comlogs =
   `During the pandemic, school counselors needed to keep track of their students,
   communication and stats. I created a CRUD application, with non-tech-savvy users in mind, smooth
-  UX,no risk for inaccurate data. There is an analytics admin dashboard for quick access to real 
-  time stats.The counselors have continued to use the app throughout the 2020-2021 school year and
+  UX, no risk for inaccurate data. There is an analytics admin dashboard for quick access to real 
+  time stats. The counselors have continued to use the app throughout the 2020-2021 school year and
   an inquiry for adding additional departments has been made. Used: React, Bootstrap, Express`
   
   const sspm = 
@@ -24,7 +24,7 @@ const Projects = () => {
   This page offers search options, browsing by letter, and if you have an ingredient at the house, 
   you can find the ingredient in the list to see all the drinks that are possible. I hope if you go
   to check it out, you find a drink to make this weekend that is different and satisfying. I like 
-  to mix things up a bit and explore what the world has to offer, I encourage it. Used: React, Sass, APIs`
+  to mix things up a bit and explore what the world has to offer, cheers! Used: React, Sass, APIs`
 
   return ( 
     <div className="section section-twoside projects-slider " data-section="projects">

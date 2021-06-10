@@ -2,7 +2,7 @@ import Footer from '../Footer'
 const About = () => {
   return ( 
     <div className="section section-description fp-auto-height-responsive " data-section="about">
-      <div className="section-cover-tier left fit bg-img" data-image-src="./img/johnk2.jpg">
+      <div className="section-cover-tier left fit bg-img" data-image-src="./img/johnk2.png">
       </div>
       {/* <!-- Begin of section wrapper --> */}
       <div className="section-wrapper fullwidth fullheight with-margin center-lg-v padding-wrapper-topbottom">
