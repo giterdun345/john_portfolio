@@ -3,7 +3,7 @@ const SkillsSide = () => {
     <div className="section-aside small-relative  aside-middle">
           <ul className="nav nav-btns-list">
             <li className="nav-item">
-              <div className="btn-framed" href="#services/0">
+              <div className="btn-framedX" href="#services/0">
                 <span className="icon">
                   <i className="fa fa-laptop"></i>
                 </span>
@@ -14,7 +14,7 @@ const SkillsSide = () => {
               </div>
             </li>
             <li className="nav-item">
-              <div className="btn-framed">
+              <div className="btn-framedX">
                 <span className="icon">FE</span>
                 <span className="text">
                   <span className="b-title">Frontend</span>
@@ -23,7 +23,7 @@ const SkillsSide = () => {
               </div>
             </li>
             <li className="nav-item">
-              <div className="btn-framed">
+              <div className="btn-framedX">
                 <span className="icon">BE</span>
                 <span className="text">
                   <span className="b-title">Backend</span>
@@ -32,7 +32,7 @@ const SkillsSide = () => {
               </div>
             </li>
             <li className="nav-item">
-              <div className="btn-framed">
+              <div className="btn-framedX">
                 <span className="icon">
                   <i className="fa fa-check"></i>
                 </span>

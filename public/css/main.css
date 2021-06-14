@@ -594,6 +594,62 @@ p {
   .btn-framed .b-desc {
     display: block; }
 
+    /* //////////////////////// */
+    .btn-framedX {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      display: flex;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid white;
+      margin-bottom: -1px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: 0.3s;
+      padding: 0rem 1rem;
+      position: relative; }
+      @media (max-width: 576px) {
+        .btn-framedX {
+          min-height: 160px; } }
+      /* .btn-framed:hover {
+        color: #1d1d1d;
+        text-decoration: none;
+        background: #ffffff; } */
+      .btn-framedX .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        transition: 0;
+        opacity: 1;
+        z-index: -1; }
+      .btn-framedX .icon {
+        font-size: 2rem;
+        font-family: "Montserrat", "Open Sans", sans-serif;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        opacity: 0.5; }
+      .btn-framedX .text {
+        padding: 1rem 0;
+        padding-right: 1rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column; }
+      .btn-framedX .b-title {
+        display: block;
+        font-size: 1.5rem;
+        font-family: "Montserrat", "Open Sans", sans-serif;
+        font-weight: bold;
+        margin-bottom: 0.25em; }
+      .btn-framedX .b-desc {
+        display: block; }
+    
 .icon-btn {
   padding-left: 8px;
   padding-right: 8px;

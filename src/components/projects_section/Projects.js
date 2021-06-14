@@ -29,6 +29,13 @@ const Projects = () => {
   return ( 
     <div className="section section-twoside projects-slider " data-section="projects">
       <Project 
+      // image="./img/mixitupGIF.gif"
+        demo="https://mixitupketterer.netlify.app/"
+        source="https://github.com/giterdun345/cocktailAPI-mixitup"
+        title = "MixItUp"
+        description = {mixitup} 
+      />
+      <Project 
         // image=
         demo="https://comlogs-demo.netlify.app/"
         source="https://github.com/giterdun345/guidance_counsellors"
@@ -41,13 +48,6 @@ const Projects = () => {
         source="https://github.com/giterdun345/southsideG"
         title = "Southside Paint"
         description = {sspm} 
-      />
-      <Project 
-      // image="./img/mixitupGIF.gif"
-        demo="https://mixitupketterer.netlify.app/"
-        source="https://github.com/giterdun345/cocktailAPI-mixitup"
-        title = "MixItUp"
-        description = {mixitup} 
       />
       <SliderNavigation />
       <Footer />
